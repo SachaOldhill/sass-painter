@@ -21,6 +21,40 @@ div#app nav li.nav-li {
   display: inline;
   padding-right: 30px;
 }
+div#app .my_jumbotron {
+  background-image: url("img/bg-painter-home.jpg");
+  background-position: right bottom;
+  background-size: cover;
+  height: 300px;
+  padding: 40px;
+}
+div#app .my_jumbotron .jumbo_txt {
+  width: 350px;
+}
+div#app .my_jumbotron .jumbo_txt h1 {
+  display: inline;
+}
+div#app .my_jumbotron .jumbo_txt .jumbo_pink {
+  padding: 25px 0px;
+  color: #be1ebc;
+}
+div#app .my_jumbotron .jumbo_txt .jumbo_pink .offer {
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+}
+div#app .my_jumbotron .jumbo_txt a {
+  padding: 7px 20px;
+}
+div#app .my_jumbotron .jumbo_txt a.button-black {
+  color: white;
+  background-color: black;
+}
+div#app .my_jumbotron .jumbo_txt a.button-trsp {
+  border: 1px solid black;
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,4 +64,11 @@ div#app nav li.nav-li {
 
 body {
   background-color: #e1e3e2;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }

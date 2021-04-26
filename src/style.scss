@@ -10,3 +10,9 @@
 body{
   background-color: $bg-body;
 }
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}

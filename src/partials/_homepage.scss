@@ -22,7 +22,38 @@ div#app{
       padding-right:30px;
     }
   }
-  .jumbotron{
-    background-image:bg-painter-home.jpg;
+  .my_jumbotron{
+    background-image:url("img/bg-painter-home.jpg");
+    background-position: right bottom;
+    background-size: cover;
+    height: 300px;
+    padding: 40px;
+    .jumbo_txt{
+      width: 350px;
+      h1{
+       display: inline;
+      }
+      .jumbo_pink{
+        padding: 25px 0px;
+        color: $c-offer;
+        .offer{
+          font-style: italic;
+          font-weight: bold;
+          display: block;
+        }
+      }
+      a{
+         padding: 7px 20px;
+      }
+      a.button-black{
+        color: white;
+        background-color: black;
+      }
+      a.button-trsp{
+        border: 1px solid black;
+        color: black;
+      }
+    }
+
   }
 }
