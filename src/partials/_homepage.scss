@@ -24,9 +24,9 @@ div#app{
   }
   .my_jumbotron{
     background-image:url("img/bg-painter-home.jpg");
-    background-position: right bottom;
+    background-position: right;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     padding: 40px;
     .jumbo_txt{
       width: 350px;
@@ -55,5 +55,39 @@ div#app{
       }
     }
 
+  }
+  main{
+    padding-top: 30px;
+    width: 1170px;
+    margin: auto;
+    .title{
+      text-align: center;
+    }
+    .cards{
+      margin-right: 15px;
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      .card{
+        background-color: white;
+        img{
+          height: 180px;
+        }
+        .card_txt{
+          padding: 10px;
+          .span_block{
+            display: block;
+            padding: 5px 0px;
+          }
+          span.new{
+            color: $nav-icon;
+            font-size: 16px;
+            padding-right: 8px;
+            font-style: italic;
+            font-weight: bold;
+          }
+        }
+      }
+    }
   }
 }
