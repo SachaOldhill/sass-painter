@@ -1,0 +1,12 @@
+@import "partials/variables";
+@import "partials/homepage";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: $bg-body;
+}

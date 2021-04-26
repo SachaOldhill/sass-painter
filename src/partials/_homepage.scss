@@ -1,0 +1,28 @@
+div#app{
+  nav{
+    height: 10vh;
+    background-color: $bg-nav;
+    color: $c-nav;
+    .menu{
+      width: 1170px;
+      margin: auto;
+      font-size: 15px;
+      padding-top: 15px;
+    }
+    span.logo{
+      font-size: 25px;
+    }
+    .menu ul{
+      display: inline;
+      padding-left: 50px;
+    }
+    li.nav-li{
+      font-size: 15px;
+      display: inline;
+      padding-right:30px;
+    }
+  }
+  .jumbotron{
+    background-image:bg-painter-home.jpg;
+  }
+}

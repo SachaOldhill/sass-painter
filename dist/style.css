@@ -1,0 +1,33 @@
+div#app nav {
+  height: 10vh;
+  background-color: #0d0b0b;
+  color: #8f8d93;
+}
+div#app nav .menu {
+  width: 1170px;
+  margin: auto;
+  font-size: 15px;
+  padding-top: 15px;
+}
+div#app nav span.logo {
+  font-size: 25px;
+}
+div#app nav .menu ul {
+  display: inline;
+  padding-left: 50px;
+}
+div#app nav li.nav-li {
+  font-size: 15px;
+  display: inline;
+  padding-right: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: #e1e3e2;
+}
