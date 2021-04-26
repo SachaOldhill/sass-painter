@@ -76,6 +76,7 @@ div#app main .cards .card img {
 }
 div#app main .cards .card .card_txt {
   padding: 10px;
+  max-width: 350px;
 }
 div#app main .cards .card .card_txt .span_block {
   display: block;
